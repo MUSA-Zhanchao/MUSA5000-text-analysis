@@ -2,7 +2,7 @@
 
 **Open AI API key** needed
 
-Problem: 
+Problem:
 - summary different between time to time run the code
 - Charge
 - Time consuming
