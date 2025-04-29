@@ -1,7 +1,7 @@
 # Text Analysis
 
-47 classical novel at Gutenberg project (text analysis) 
-Utiliziation: Analyzing Amazon review & survey 
+47 classical novel at Gutenberg project (text analysis)
+Utiliziation: Analyzing Amazon review & survey
 
 ## Step 1: Bring in the text
 read url
@@ -32,7 +32,7 @@ Every documents are rows, every terms in colomn (variables). look distribution o
 - visulization: word cloud (larger fonts, more frequency, specify minimum frequency)
 - filter the words frequency, get rid of unnecessary data (too much)
 
-## Text Clustering 
+## Text Clustering
 
 k-means analysis (distribution)
 
@@ -47,6 +47,3 @@ Sentiment lexicon: predefined sentiment (source, trained)
 
 - Try words in different lexicon (crowd source, same words, change a little bit may be different scores)
 - Some words in one dictionary but not in another
-
-
-
