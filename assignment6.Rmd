@@ -1,0 +1,31 @@
+---
+title: 'Text Analysis'
+author: "Zhanchao Yang"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: flatly
+    highlight: tango
+    toc: true
+    toc_float: true
+    code_folding: hide
+    code_download: yes
+    mathjax: default
+---
+
+```{r load packages, message=FALSE, warning=FALSE, include=FALSE}
+
+options(scipen=999)
+options(digits = 3)
+
+library(tidyverse)
+library(sf)
+library(here)
+library(kableExtra)
+library(patchwork)
+library(spatstat.explore)
+library(spatstat)
+library(proxy)
+```
+
+# Introduction
