@@ -1,4 +1,4 @@
 # MUSA5000-text-analysis
-Assignment 6: Text Analysis
+MUSA 5000 Assignment 6: Text Analysis
 
-Zhanchao's additional try (in summer, summer 2025)
+*Disclaimers: Zhanchao's experiment is not related to class work or teams*
