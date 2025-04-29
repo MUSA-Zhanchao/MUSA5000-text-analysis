@@ -29,4 +29,24 @@ see how often different terms appear in the document line  (sparse metrix)
 
 Every documents are rows, every terms in colomn (variables). look distribution of terms
 
+- visulization: word cloud (larger fonts, more frequency, specify minimum frequency)
+- filter the words frequency, get rid of unnecessary data (too much)
+
+## Text Clustering 
+
+k-means analysis (distribution)
+
+## Sentiment Analysis
+
+Sentiment lexicon: predefined sentiment (source, trained)
+
+1. NRC Lexicon: list of words listed different sentiment categories: positive, negative, anger, fear, etc. (assigned words into 1 categories)
+2. AFINN Lexicon: everyword give a scores between -5 and 5, negative -> negative, positive-> positive
+3. Bing Lexicon: positive and negative
+4. Syuzhet: flow of text, how emotional intensity change over time (temporal dynamics)
+
+- Try words in different lexicon (crowd source, same words, change a little bit may be different scores)
+- Some words in one dictionary but not in another
+
+
 
