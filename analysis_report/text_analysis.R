@@ -65,5 +65,6 @@ tm::inspect(tdm)
 m<- as.matrix(tdm)
 dim(m)
 
-tab <- as.matrix(table(cs))
-wordcloud(myCorpus, min.freq=100)
+word.freq <- rowSums(m)
+word.freq <- sort(word.freq, decreasing = TRUE)
+wordcloud(names(word.freq), word.freq, min.freq = 100)
